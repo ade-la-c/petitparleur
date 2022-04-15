@@ -16,6 +16,8 @@ int		main( void ) {
 
 	connect(sockfd, (sockaddr *)&addr, addrlen);
 
+	std::cout << "sockfd : " << sockfd << std::endl;
+
 	while (true) {
 
 		std::string		str;
@@ -31,7 +33,7 @@ int		main( void ) {
 		} else if (str == "end")
 			break;
 		else
-			std::cout << "message sended" << std::endl;
+			std::cout << "message sent" << std::endl;
 	}
 	return 0;
 }
