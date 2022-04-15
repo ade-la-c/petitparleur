@@ -1,6 +1,6 @@
 #include "common.h"
 
-int		main() {
+int		main( void ) {
 
 	int					listenfd, connfd;
 	struct sockaddr_in	servaddr;
